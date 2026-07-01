@@ -1,11 +1,7 @@
-import Image from "next/image";
+import React from "react";
 
-export default async function Home({ params, searchParams }) {
-  console.log(await params);
-  console.log(await searchParams);
-  return (
-    <>
-      <h1>hii</h1>
-    </>
-  );
+function page() {
+  return <div>Home Page</div>;
 }
+
+export default page;
